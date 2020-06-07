@@ -1,0 +1,319 @@
+/* ここから下に記載していく */
+/* body */
+body {
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  width: 1200px;
+  margin: auto 0;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul.header_nav {
+  display: flex;
+}
+ul.header_nav li {
+  margin-left: 40px;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+/* mainvisual */
+.mainvisual {
+  height: 400px;
+  /* 背景画像の使用 */
+  background: url(../img/mainbg.png);
+  /* 背景画像を使う際の方法 */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 「セカイを変えるチーズを作ろう」部分 */
+.mainvisual_title {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 200px;
+}
+/* 「チーズ職人養成学校「チーズアカデミーTOKYO」」部分 */
+.mainvisual_subtitle {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* #about */
+#about {
+  text-align: center;
+  margin: 50px 0;
+}
+h3.about_title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #ffd61a;
+  margin-bottom: 20px;
+}
+p.about_subtitle {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+p.about_text {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* .imgBox */
+.imgBox {
+  display: flex;
+}
+.imgBox p {
+  widows: 25%;
+}
+.imgBox p img {
+  width: 100%;
+}
+
+/* #course */
+#course {
+  text-align: center;
+  margin: 50px 0;
+}
+h3.course_title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+p.course_text {
+  margin-bottom: 60px;
+  line-height: 1.7;
+}
+.course_row {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+}
+.course_img {
+  width: 600px;
+}
+.course_sen {
+  width: 480px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.course_subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.course_row2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+/* #news */
+h3.news_title {
+  font-size: 38px;
+  color: #ffd61a;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+p.news_text {
+  margin-bottom: 60px;
+}
+.news_group {
+  display: flex;
+  justify-content: center;
+}
+.news_topics {
+  width: 300px;
+  margin: 15px;
+}
+.news_topics:hover {
+  opacity: 0.6;
+}
+.date {
+  text-align: left;
+  margin-top: 30px;
+}
+.news_detail {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 24px;
+  line-height: 1.7;
+}
+.button_more {
+  width: 300px;
+  background-color: #ffd61a;
+  border-radius: 5px;
+  border: solid 1px rgba(136, 136, 136, 1);
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px auto 60px;
+  padding: 10px 0;
+}
+.button_more:hover {
+  opacity: 0.7;
+}
+
+/* #access */
+#access {
+  background-color: #fafafa;
+}
+h3.access_title {
+  font-size: 38px;
+  color: #ffd61a;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-top: 60px;
+}
+p.access_text {
+  margin-bottom: 60px;
+}
+iframe {
+  width: 1200px;
+  height: 300px;
+}
+.access_info {
+  padding-left: 420px;
+  text-align: left;
+}
+table.table_info {
+  border-collapse: separate;
+  border-spacing: 25px 30px;
+  font-size: 15px;
+}
+
+/* #contact */
+h3.contact_title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-top: 60px;
+}
+p.contact_text {
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+.form {
+  width: 640px;
+  margin: auto;
+}
+.form-list {
+  margin-bottom: 30px;
+  padding-left: 0;
+  list-style: none;
+}
+.form-item {
+  display: flex;
+  align-items: center;
+  margin: 0 0 24px;
+}
+.form-item__radio {
+  align-items: flex-start;
+  margin: 40px 0 32px;
+}
+.form-item__textarea {
+  align-items: flex-start;
+  margin: 0 0 40px;
+}
+.form-label {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 115px;
+  width: 110px;
+  margin: 0 24px 0 0;
+  text-align: right;
+  font-weight: bold;
+}
+.form-label__textarea {
+  padding-top: 16px;
+}
+.form-detail {
+  vertical-align: middle;
+}
+.form-parts {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 388px;
+  padding: 8px 8px;
+  border: solid 1px #aaaaaa;
+  border-radius: 0;
+  vertical-align: top;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+.form-choose {
+  padding-left: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.form-choose > li {
+  margin: 0 0 24px;
+  font-size: 1.4rem;
+  white-space: nowrap;
+}
+.form-choose > li:last-of-type {
+  margin-bottom: 0;
+}
+.form-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  margin: 0 12px 0 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #eeeeee;
+}
+.radio_text {
+  font-size: 18px;
+}
+textarea {
+  height: 100px;
+  overflow-y: scroll;
+}
+.btn-submit {
+  width: 300px;
+  background-color: #ffd61a;
+  border-radius: 5px;
+  border: solid 1px rgba(136, 136, 136, 1);
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px auto 60px;
+  padding: 10px 0;
+}
+.btn-submit:hover {
+  opacity: 0.7;
+}
+
+/* #footer */
+#footer {
+  background-color: #707070;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
